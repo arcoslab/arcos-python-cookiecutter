@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 """
-Test suite for module {{ cookiecutter.repo_name }}.
+Test suite for module {{ cookiecutter.project_slug }}.
 
 See http://pythontesting.net/framework/pytest/pytest-introduction/#fixtures
 """
