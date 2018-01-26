@@ -10,7 +10,7 @@ from __future__ import print_function, division
 
 import pytest  # noqa
 
-from {{ cookiecutter.repo_name }} import __version__
+from {{ cookiecutter.project_slug }} import __version__
 
 
 def setup_module(module):
