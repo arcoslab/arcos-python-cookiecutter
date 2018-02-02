@@ -60,8 +60,8 @@ setup(
     author="{{ cookiecutter.full_name.replace('\"', '\\\"') }}",
     author_email='{{ cookiecutter.email }}',
     url='https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.project_slug }}',
-    package_dir={'': 'lib'},
-    packages=find_packages('lib'),
+    package_dir={'': 'src'},
+    packages=find_packages('src'),
 
     {%- if 'no' not in cookiecutter.command_line_interface|lower %}
     entry_points={

@@ -15,7 +15,7 @@ if __name__ == '__main__':
 
     if 'no' in '{{ cookiecutter.command_line_interface|lower }}':
         cli_file = os.path.join(
-            'lib', '{{ cookiecutter.project_slug }}', 'cli.py')
+            'src', '{{ cookiecutter.project_slug }}', 'cli.py')
         remove_file(cli_file)
 
     if 'Not open source' == '{{ cookiecutter.open_source_license }}':
